@@ -5,6 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "xcodeproj-modify",
+    products: [
+       .executable(
+           name: "xcodeproj-modify",
+           targets: ["xcodeproj-modify"]
+       )
+    ],
     dependencies: [
         .package(url: "https://github.com/tuist/xcodeproj.git", from: "6.2.0"),
     ],
