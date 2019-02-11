@@ -15,11 +15,10 @@ This will edit your Xcode project `MyProject.xcodeproj` and add a Run Script pha
 
 ## Installation
 
-Using Mint: 
+Using [Mint](https://github.com/yonaskolb/Mint): 
 
 ```shell
 $ mint install skagedal/xcodeproj-modify
 ```
 
-You may also add the tool as a SPM dependency in your Package.swift and then run it with `swift run xcodeproj-modify`. 
-
+You may also add the tool as a SPM dependency in your Package.swift and then run it with `swift run xcodeproj-modify`.  As an example, see how this is done in my tool ([generate-xcodeproj.sh](https://github.com/skagedal/appicon-generator/blob/master/generate-xcodeproj.sh), [Package.swift](https://github.com/skagedal/appicon-generator/blob/master/Package.swift)).
