@@ -53,6 +53,7 @@ struct XcodeprojModify {
         }
 
         let phase = PBXShellScriptBuildPhase(shellScript: contents)
+        xcodeproj.pbxproj.add(object: phase)
         for target in targets {
             target.buildPhases = target.buildPhases + [phase]
         }
